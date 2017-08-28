@@ -3,6 +3,7 @@ let fs = require('fs')
 let app = express();
 
 let sliders = require('./sliders')
+
 function read(callback){
   fs.readFile('./book.json','utf-8',function(err,data){
     if(err){
@@ -14,7 +15,6 @@ function read(callback){
   })
 }
 
-let books = require('./book.json')
 
 app.get('/api/slider',function(req,res){
   res.send(sliders);

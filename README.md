@@ -2,6 +2,10 @@
 
 > A Vue.js project
 
+# 启动服务
+
+> mock文件下的server.js run一下
+
 ## Build Setup
 
 ``` bash
